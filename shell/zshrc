@@ -1,0 +1,13 @@
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source "$HOME/.config/shell/alias.zsh"
+source "$HOME/.config/shell/functions.zsh"
+source "$HOME/.config/shell/env.zsh"
+
+eval "$(starship init zsh)"
+
+source "$HOME/.config/shell/welcome.zsh"
+
+source "/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
