@@ -1,3 +1,4 @@
 raycast/
 sanity/
 ranger/plugins/
+shell/secret_env.zsh
