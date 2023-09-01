@@ -5,7 +5,8 @@ brew tap homebrew/cask-fonts
 brew install --cask "$font"
 
 # APPS
-brew install alacritty spaceman
+brew install alacritty spaceman pop
+brew install --cask alt-tab
 
 # TOOLS
 brew install tree fd fzf bat grep wget trash curl exa

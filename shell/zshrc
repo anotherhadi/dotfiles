@@ -4,6 +4,7 @@
 source "$HOME/.config/shell/alias.zsh"
 source "$HOME/.config/shell/functions.zsh"
 source "$HOME/.config/shell/env.zsh"
+source "$HOME/.config/shell/secret_env.zsh"
 
 eval "$(starship init zsh)"
 
