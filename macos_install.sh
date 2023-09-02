@@ -1,3 +1,6 @@
+# Install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # FONTS
 # https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e
 font="font-hack-nerd-font"
@@ -19,7 +22,7 @@ brew install koekeishiya/formulae/yabai # https://github.com/koekeishiya/yabai/w
 brew install neovim lazygit tree-sitter tmux zsh-syntax-highlighting zsh-autosuggestions
 
 # SHELL
-brew install pfetch gum ranger
+brew install pfetch gum ranger starship
 
 # CODE
 brew install node gcc
@@ -29,9 +32,8 @@ python3 -m ensurepip
 pip install tldr
 
 ## CONFIG
-git clone https://github.com/anotherhadi/dotfiles || exit
-mv "dotfiles/wallpaper" ~/Pictures/
-mv "dotfiles/*" ~/.config/
+mv "./wallpaper" ~/Pictures/
+mv "./*" ~/.config/
 
 ### SymLink
 ln -s ~/.config/shell/zshrc ~/.zshrc
