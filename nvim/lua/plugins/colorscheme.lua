@@ -1,9 +1,11 @@
 return {
-  { "catppuccin/nvim" },
+  { "marko-cerovac/material.nvim" },
+  lazy = false,
+  priority = 1000,
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "material",
     },
   },
 }

@@ -58,7 +58,7 @@ font:
 
 colors:
   primary:
-    background: '#1e1e2f'
+    background: '#0f111a'
     foreground: '#f4f4f9'
 
   cursor:
@@ -70,34 +70,24 @@ colors:
     background: CellForeground
   
   normal:
-    black:   '#0C151D'
-    red:     '#f38ba8'
-    green:   '#a6e2af'
-    yellow:  '#fab387'
-    blue:    '#89b4fa'
-    magenta: '#cba6f7'
-    cyan:    '#00d8eb'
-    white:   '#f4f4f9'
+    black:   '#212121'
+    red:     '#EF5350'
+    green:   '#66BB6A'
+    yellow:  '#FFCA28'
+    blue:    '#42A5F5'
+    magenta: '#AB47BC'
+    cyan:    '#26C6DA'
+    white:   '#F5F5F5'
 
   bright:
-    #    black:   '#182a3a'
-    red:     '#eba0ac'
-    green:   '#b5e8b0'
-    yellow:  '#f9e2af'
-    blue:    '#b4befe'
-    magenta: '#dec7fa'
-    cyan:    '#67fff0'
-    white:   '#f8f8fc'
-
-  #dim:
-  #  black:   '#131415'
-  #  red:     '#864343'
-  #  green:   '#777c44'
-  #  yellow:  '#9e824c'
-  #  blue:    '#556a7d'
-  #  magenta: '#75617b'
-  #  cyan:    '#5b7d78'
-  #  white:   '#828482'
+    black:   '#424242'
+    red:     '#E57373'
+    green:   '#81C784'
+    yellow:  '#FFD54F'
+    blue:    '#64B5F6'
+    magenta: '#BA68C8'
+    cyan:    '#4DD0E1'
+    white:   '#FAFAFA'
 
 shell:
   program: /bin/zsh
