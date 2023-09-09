@@ -5,18 +5,18 @@ ${custom.logo}\
 $git_branch\
 $git_state\
 $git_status\
-$cmd_duration\
 $character"""
 
 [username]
 show_always = true
 format = '[$user ]($style)'
+style_user = "cyan"
 
 [directory]
 style = "blue"
 
 [character]
-success_symbol = "[❯](purple)"
+success_symbol = "[❯](cyan)"
 error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
